@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: pink;
+}
+
 
 /*ROOT PALETA*/
 :root{
@@ -17,6 +21,9 @@
     --mustard: #EC8A00;
     --rich-black: #00171F;
     --white: #FFFFFF;
+
+    /*fins de teste*/
+    --primary-test:#1a1ed8;
 }
 
 /*ALGUMAS CLASSES*/
@@ -34,6 +41,11 @@
 h1,h2{
     font-family: "Rubik Spray Paint", system-ui;
     font-weight: 400;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 .paragraph{
