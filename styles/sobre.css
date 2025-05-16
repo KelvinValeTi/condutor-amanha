@@ -33,4 +33,195 @@
     object-fit: cover;
 }
 
+/*RESPONSIVO*/
+
+/*== 2330 px ==*/
+@media (max-width:2330px) and (min-width:2101px){
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:2.5em;
+    }
+}
+
+/*==  2100 px ==*/
+@media (max-width:2100px) and (min-width:1801px){    
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:2em;
+    }
+}
+/*==  1800 px ==*/
+@media (max-width:1800px) and (min-width:1601px){
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1.5em;
+    }
+}
+
+/*==  1600 px ==*/
+@media (max-width:1600px) and (min-width:1301px){
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1.5em;
+    }
+}
+
+/*===1300px ===*/
+@media (max-width:1300px) and (min-width:1101px){
+    #sobre{
+        padding: 2em 10em 0 10em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1.2em;
+    }
+}
+
+/*===1100px ===*/
+@media (max-width:1100px) and (min-width:1001px){
+    #sobre{
+        padding: 2em 10em 0 10em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===1000px ===*/
+@media (max-width:1000px) and (min-width:901px){
+    #sobre{
+        padding: 1.5em 9em 0 9em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===900px ===*/
+@media (max-width:900px) and (min-width:781px){
+    #sobre{
+        padding: 1.5em 5em 0 5em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:1em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===780px ===*/
+@media (max-width:780px) and (min-width:651px){
+     #sobre{
+        padding: 1.5em 5em 0 5em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.8em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1.5em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===650px ===*/
+@media (max-width:650px) and (min-width:601px){
+    #sobre{
+        padding: 1.5em 4em 0 4em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.8em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1.5em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===600px ===*/
+@media (max-width:600px) and (min-width:501px){
+    #sobre{
+        padding: 1.5em 2em 0 2em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.7em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1em;
+    }
+    #img-sobre{
+        width:55%;
+    }
+}
+
+/*===500px ===*/
+@media (max-width:500px) and (min-width:426px){
+    #sobre{
+        padding: 1.5em 3em 1.5em 3em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.7em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1em;
+    }
+    #img-sobre{
+        display: none;
+    }
+}
+
+/*===425px ===*/
+@media (max-width:425px) and (min-width:376px){
+    #sobre{
+        padding: 1em 2em 1em 2em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.7em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1em;
+    }
+    #img-sobre{
+        display: none;
+    }
+}
+
+/*===375px ===*/
+@media (max-width:375px) and (min-width:321px){
+    #sobre{
+        padding: 1em 2em 1em 2em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.6em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1em;
+    }
+    #img-sobre{
+        display: none;
+    }
+}
+
+/*===320px ===*/
+@media (max-width:320px){
+     #sobre{
+        padding: 1em 2em 1em 2em;
+    }
+    #sobre-primeiro-container, #sobre-segundo-container{
+        font-size:0.5em;
+    }
+    #sobre-primeiro-container p, #sobre-segundo-container p{
+        padding-top:1em;
+    }
+    #img-sobre{
+        display: none;
+    }
+}
+
+
 
