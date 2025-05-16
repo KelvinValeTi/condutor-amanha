@@ -1,25 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--STYLES-->
     <link rel="stylesheet" href="styles/style.css" type="text/css">
-    <link rel="stylesheet" href="styles/hero.css" type="text/css">
-
+    
     <!--favicon aqui FALTA COLOCAR-->
     <title>Condutor do Amanhã - Coordenadoria de Educação para o Trânsito - Detran-MA</title>
 </head>
+
 <body>
-    <!--NAV-BAR fazer depois-->
-    
-    <!--hero-->
     <section id="hero">
-        <h1 id="titulo" class="headings">Condutor do Amanhã</h1>
-        <h3 id="sub-titulo">Formando Cidadãos Conscientes para um Trânsito mais gentil</h3>
+         <div id="title-hero">
+            <h1 id="condutor" class="headings uppercase">Condutor</h1>
+            <h1 id="do-amanha" class="headings uppercase">do Amanhã</h1>
+            <h3 id="sub-titulo">Formando Cidadãos Conscientes para um Trânsito mais gentil</h3>
+            <a href=""><button class="cta" id="cta-hero">Agende sua palestra</button></a><!--CTA-->
+        </div>
     </section>
 
-    <!--form-->
-    <!--footer-->
+    <!--Sobre nós-->
+    <section id="sobre">
+        <div class="heading-section">
+            <!--icon de setinha-->
+            <h2>Sobre o Programa</h2>
+        </div>
+        
+        <div id="sobre-p1">
+            <p class="paragraph">O <b>condutor do amanhã</b> é um programa elaborado pela <b>Coordenação de Educação para o Trânsito do DETRAN-MA</b>, voltado para <b>alunos do Ensino Médio e de autoescolas</b>, cujo objetivo é, por meio de palestras e rodas de conversa, difundir o conhecimento sobre segurança viária, bem como elucidar acerca dos processos para obtenção da Carteira Nacional de Habilitação (CNH).</p>
+        </div>
+
+        <div id="sobre-p2">
+            <p class="paragraph">O programa Condutor do Amanhã tem como objetivo fundamental promover a <b>educação no trânsito</b> para estudantes do Ensino Médio e alunos de Autoescolas, despertando neles a importância de adotar <b>comportamentos responsáveis e solidários nas vias públicas.</b> Por meio de experiências práticas e reflexões, buscamos fortalecer os valores da cidadania, segurança e respeito no trânsito, elementos essenciais para a construção de um ambiente mais seguro e humano para todos.</p>
+    </section>
+
+    <!--Como funciona-->
+    <section id="como-funciona">
+        <div class="heading-section">
+            <!--icon de setinha-->
+            <h2>Sobre o Programa</h2>
+        </div>
+
+        <div>
+            <div></div>
+
+            <div class="post-it-style">
+                <h3> Palestra Educativa</h3>
+                <p>Palestras de 40 a 60 minutos onde serão ministrados temas alusivos à segurança no trânsito, tais como:</p>
+                <ul>
+                    <li>Comportamentos seguros para pedestres e condutores</li>
+                    <li>Processo de obtenção de CNH</li>
+                    <li>Boas práticas no trânsito enquanto condutor ou pedestre</li>
+                    <li>Sinalização viária</li>
+                    <li>Dispositivos de segurança</li>
+                    <li>Entre Outros</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="post-it-style">
+                <h3> Palestra Educativa</h3>
+                <p>Com um tempo mínimo de 40 minutos, o mediador conduzirá uma roda de conversa acerca da segurança viária, bem como processos técnicos sobre a obtenção da CNH.</p>
+            </div>
+
+            <div></div>
+        </div>
+    </section>
+
+    <!--Galeria implementar depois, aqui pode ser com javascript-->
+
+    <!--Contato-->
+    <section id="contato">
+        
+        <div>
+            <div>
+                <div class="heading-section">
+                    <!--setinha-->
+                    <h2>Contato</h2>
+                </div>
+                <h3>Nos envie uma email, para iniciarmos o agendamento da palestra, iremos lhe retornar</h3>
+            </div>
+            <form action="">
+                <label>Nome:</label>
+                <input type="text" placeholder="Digite seu Nome">
+
+                <label>Instituição:</label>
+                <input type="text" placeholder="Digite sua Instituição">
+
+                <label>E-mail:</label>
+                <input type="email" placeholder="digite seu E-mail">
+                
+                <label>Digite sua mensagem:</label>
+                <input type="text" placeholder="Descreva resumidamente sobre como deseja a palestra, sobre o local a data e horário">
+                
+            </form>
+            <div id="img-form"></div>
+        </div>
+    </section>
 </body>
 </html>
