@@ -1,0 +1,105 @@
+#contato{
+    width:100%;
+    height:auto;
+
+    color:var(--dark-blue);
+    background-color: var(--white);
+
+    padding:2em;
+}
+
+#contato-header{
+    /* background-color: seagreen; */
+}
+
+#contato-body{
+    /* background-color: peru; */
+
+    display: flex;
+    flex-direction: row;
+
+    padding-top:2em;
+}
+
+form{
+    /* background-color: rgb(198, 162, 233); */
+    font-family: "Montserrat", sans-serif;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 1em 2em 0 2em;
+    gap:1em;
+}
+
+form h3{
+    text-align: justify;
+    font-weight: 800;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+form div{
+    width: 80%;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 1em;
+}
+
+label{
+    font-size:2em;
+}
+
+.input-padrao, #input-msg{
+    border:none;
+    background-color: #dcdcdc;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
+    width:40em;
+    padding-left: 1em;
+    padding-right:1em;
+    font-size:1.5em;
+}
+
+.input-padrao::placeholder, #input-msg::placeholder{
+   /* font-size:1.5em; */
+}
+
+.input-padrao{
+    height:4em;
+}
+
+#input-msg{
+    height:15em;
+    padding-top:1em;
+}
+
+#img-form{
+    background-color: var(--mustard);
+    width:80%;
+}
+
+form button{
+    height:auto;
+    border:none;
+    background-color: var(--dark-blue);
+    color:var(--white);
+
+    width:4em;
+    font-size:3em;
+    padding:0.2em;
+}
+
+form button:hover{
+    margin-left:0.5em;
+    transition: 0.7s;
+}
+
+/*=== RESPONSIVO ====*/
