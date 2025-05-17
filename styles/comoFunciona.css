@@ -1,0 +1,485 @@
+#como-funciona{
+    background-color: var(--blue);
+    color:var(--rich-black);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap:6em;
+
+    padding: 4em 2em;
+
+    overflow: hidden;
+}
+
+.box-modalidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap:3em;
+}
+
+/*==== Imagens direto no css, regula o posicionamento delas direto no código ====*/
+#img-palestra, #img-bate-papo{
+    width:70em;
+    height:60em;
+    box-shadow: 10px 10px 4px rgba(0,0,0,0.4);
+    transform:rotate(2deg);
+
+}
+#img-palestra{
+    background-image: url("../img/palestra-educativa.jpeg");
+    background-size:200%;
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+}
+#img-bate-papo{
+    background-image: url("../img/roda-bate-papo.jpeg");
+    background-size:150%;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+}
+/*===========*/
+
+.post-it-style{
+    background-color: var(--orange);
+    box-shadow: 10px 10px 4px rgba(0,0,0,0.4);
+    transform:rotate(-2deg);
+    padding:1em;
+
+    width:20em;
+    font-size:3em;
+}
+
+.post-it-style h3{
+    text-align: center;
+    font-weight: 800;
+}
+
+/*RESPONSIVO*/
+
+/*== 2330 px ==*/
+@media (max-width:2330px) and (min-width:2101px){
+    .post-it-style{
+        font-size:2.5em;
+    } 
+    #img-palestra, #img-bate-papo{
+        width:60em;
+        height:50em;
+    }
+
+}
+
+/*==  2100 px ==*/
+@media (max-width:2100px) and (min-width:1801px){    
+    #como-funciona{
+        gap:4em;
+    }
+
+    .post-it-style{
+        font-size:2em;
+    }
+    
+    #img-palestra, #img-bate-papo{
+        width:50em;
+        height:40em;
+    }
+
+}
+
+/*==  1800 px ==*/
+@media (max-width:1800px) and (min-width:1601px){
+    #como-funciona{
+        gap:4em;
+    }
+
+    .post-it-style{
+        font-size:1.8em;
+    }
+    #img-palestra, #img-bate-papo{
+        width:40em;
+        height:30em;
+    }
+    #img-palestra{
+        background-size:160%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*==  1600 px ==*/
+@media (max-width:1600px) and (min-width:1301px){
+    #como-funciona{
+        gap:3em;
+        padding: 3em 2em;
+    }
+
+    .post-it-style{
+        font-size:1.5em;
+    }
+    #img-palestra, #img-bate-papo{
+        width:35em;
+        height:25em;
+    }
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===1300px ===*/
+@media (max-width:1300px) and (min-width:1101px){
+    #como-funciona{
+        gap:3em;
+        padding: 3em 2em;
+    }
+
+    .post-it-style{
+        font-size:1.3em;
+    }
+    #img-palestra, #img-bate-papo{
+        width:30em;
+        height:20em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===1100px ===*/
+@media (max-width:1100px) and (min-width:1001px){
+    #como-funciona{
+        gap:2em;
+        padding: 2em 2em;
+    }
+
+    .post-it-style{
+        font-size:1em;
+    }
+    
+    #img-palestra, #img-bate-papo{
+        width:27em;
+        height:17em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===1000px ===*/
+@media (max-width:1000px) and (min-width:901px){
+    #como-funciona{
+        gap:2em;
+        padding: 2em 2em;
+    }
+
+    .post-it-style{
+        font-size:1em;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:25em;
+        height:15em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===900px ===*/
+@media (max-width:900px) and (min-width:781px){
+    #como-funciona{
+        gap:2em;
+        padding: 2em 2em;
+    }
+
+    .box-modalidades{
+        gap:2em;
+    }
+
+    .post-it-style{
+        font-size:1em;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:20em;
+        height:15em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+
+}
+
+/*===780px ===*/
+@media (max-width:780px) and (min-width:651px){
+    #como-funciona{
+        gap:2em;
+        padding: 2em 2em;
+    }
+    
+    .box-modalidades{
+        gap:2em;
+    }
+
+    .post-it-style{
+        font-size:0.8em;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:17em;
+        height:12em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===650px ===*/
+@media (max-width:650px) and (min-width:601px){
+    #como-funciona{
+        gap:1.5em;
+        padding: 2em 2em;
+    }
+    
+    .box-modalidades{
+        gap:1.5em;
+    }
+
+    .post-it-style{
+        font-size:0.8em;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:17em;
+        height:12em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*===600px ===*/
+@media (max-width:600px) and (min-width:501px){
+    #como-funciona{
+        gap:1.5em;
+        padding: 2em 2em;
+    }
+    
+    .box-modalidades{
+        gap:1.5em;
+    }
+
+    .post-it-style{
+        font-size:0.6em;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:15em;
+        height:10em;
+    }
+
+    #img-palestra{
+        background-size:150%;
+        background-position: 10% 0%;
+    }
+    #img-bate-papo{
+        background-size:120%;
+        background-position: 60% 0%;
+    }
+}
+
+/*==== A PARTIR DAQUI, aqui muda o layout, pois aparece o menu hamburguer ====*/
+
+/*===500px ===*/
+@media (max-width:500px) and (min-width:426px){
+    #como-funciona{
+        gap:1em;
+        padding: 1.5em 1.5em;
+    }
+
+    .box-modalidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap:1em;
+    }
+
+    .post-it-style{
+        font-size:0.7em;
+        width:80vw;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:80vw;
+        height:10em;
+    }
+
+    #img-palestra{
+        background-size:100%;
+        background-position: 0% 0%;
+    }
+    #img-bate-papo{
+        display: none;
+    }
+}
+
+/*===425px ===*/
+@media (max-width:425px) and (min-width:376px){
+    #como-funciona{
+        gap:1em;
+        padding: 1em 1em;
+    }
+
+    .box-modalidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap:0.7em;
+    }
+
+    .post-it-style{
+        font-size:0.6em;
+        width:90vw;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:90vw;
+        height:8em;
+    }
+
+    #img-palestra{
+        background-size:100%;
+        background-position: 0% 50%;
+    }
+    #img-bate-papo{
+        display: none;
+    }
+}
+
+
+/*===375px ===*/
+@media (max-width:375px) and (min-width:321px){
+    #como-funciona{
+        gap:1em;
+        padding: 0.7em 0.7em;
+    }
+
+    .box-modalidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap:0.5em;
+    }
+
+    .post-it-style{
+        font-size:0.6em;
+        width:90vw;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:90vw;
+        height:8em;
+    }
+
+    #img-palestra{
+        background-size:100%;
+        background-position: 0% 50%;
+    }
+    #img-bate-papo{
+        display: none;
+    }
+}
+
+/*===320px ===*/
+@media (max-width:320px){
+    #como-funciona{
+        gap:0.7em;
+        padding: 0.7em 0.7em;
+    }
+
+    .box-modalidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap:0.3em;
+    }
+
+    .post-it-style{
+        font-size:0.5em;
+        width:90vw;
+    }
+
+    #img-palestra, #img-bate-papo{
+        width:90vw;
+        height:6em;
+    }
+
+    #img-palestra{
+        background-size:100%;
+        background-position: 0% 30%;
+    }
+    #img-bate-papo{
+        display: none;
+    }
+}
+
+
+
+
+
