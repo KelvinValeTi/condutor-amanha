@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="styles/comoFunciona.css" type="text/css">
     <link rel="stylesheet" href="styles/contato.css" type="text/css">
     <link rel="stylesheet" href="styles/footer.css" type="text/css">
+
+    <!--animate on scroll library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!--favicon aqui FALTA COLOCAR-->
     <title>Condutor do Amanhã - Coordenadoria de Educação para o Trânsito - Detran-MA</title>
@@ -43,7 +46,7 @@
 
     <!--HERO-->
     <section id="hero">
-         <div id="title-hero">
+         <div id="title-hero" data-aos="fade-up">
             <h1 id="condutor" class="headings uppercase">Condutor</h1>
             <h1 id="do-amanha" class="headings uppercase">do Amanhã</h1>
             <h3 id="sub-titulo">Formando Cidadãos Conscientes para um Trânsito mais gentil</h3>
@@ -53,16 +56,16 @@
 
     <!--Sobre o programa-->
     <section id="sobre">
-        <div class="heading-section">
+        <div class="heading-section" data-aos="fade-down">
             <svg class="heading-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#EF8354" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
             <h2>Sobre o Programa</h2>
         </div>
         
-        <div id="sobre-primeiro-container">
+        <div id="sobre-primeiro-container" data-aos="fade-down">
             <p class="paragraph">O <b>condutor do amanhã</b> é um programa elaborado pela <b>Coordenação de Educação para o Trânsito do DETRAN-MA</b>, voltado para <b>alunos do Ensino Médio e de autoescolas</b>, cujo objetivo é, por meio de palestras e rodas de conversa, difundir o conhecimento sobre segurança viária, bem como elucidar acerca dos processos para obtenção da Carteira Nacional de Habilitação (CNH).</p>
         </div>
 
-        <div id="sobre-segundo-container">
+        <div id="sobre-segundo-container" data-aos="fade-down">
             <div id="sobre-p2">
                 <p class="paragraph">O programa Condutor do Amanhã tem como objetivo fundamental promover a <b>educação no trânsito</b> para estudantes do Ensino Médio e alunos de Autoescolas, despertando neles a importância de adotar <b>comportamentos responsáveis e solidários nas vias públicas.</b> Por meio de experiências práticas e reflexões, buscamos fortalecer os valores da cidadania, segurança e respeito no trânsito, elementos essenciais para a construção de um ambiente mais seguro e humano para todos.</p>
             </div>
@@ -73,16 +76,16 @@
 
     <!--Como funciona-->
     <section id="como-funciona">
-        <div class="heading-section">
+        <div class="heading-section" data-aos="fade-down">
             <svg class="heading-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#EF8354" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
             <h2>Como Funciona?</h2>
         </div>
 
         <div class="box-modalidades">
-            <div id="img-palestra">
+            <div id="img-palestra" data-aos="fade-down">
                 <!-- Imagem pelo CSS -> comoFunciona.css -->
             </div>
-            <div class="post-it-style paragraph">
+            <div class="post-it-style paragraph" data-aos="fade-down">
                 <h3>Palestra Educativa</h3><br>
                 <p>Palestras de 40 a 60 minutos onde serão ministrados temas alusivos à segurança no trânsito, tais como:</p><br>
                 <p>->Comportamentos seguros para pedestres e condutores</p>
@@ -95,11 +98,11 @@
         </div>
 
         <div class="box-modalidades">
-            <div class="post-it-style">
+            <div class="post-it-style" data-aos="fade-down">
                 <h3>Roda de bate-papo</h3><br>
                 <p class="paragraph">Com um tempo mínimo de 40 minutos, o mediador conduzirá uma roda de conversa acerca da segurança viária, bem como processos técnicos sobre a obtenção da CNH.</p>
             </div>
-            <div id="img-bate-papo">
+            <div id="img-bate-papo" data-aos="fade-down">
                 <!--Imagem pelo CSS -> comoFunciona.css -->
             </div>
         </div>
@@ -108,14 +111,14 @@
     <!--Contato-->
     <section id="contato">
         
-        <div id="contato-header">
+        <div id="contato-header" data-aos="fade-down">
             <div class="heading-section">
                 <svg class="heading-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#EF8354" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
                 <h2>Contato</h2>
             </div>
         </div>
 
-        <div id="contato-body">
+        <div id="contato-body" data-aos="fade-down">
             <form action="">
                 <h3>Nos envie um email para iniciarmos o agendamento da palestra, iremos lhe retornar em breve!</h3>
 
@@ -176,6 +179,11 @@
 
     <!--Script-->
     <script src="js/navBar.js"></script>
+    <!--biblioteca de animação-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
