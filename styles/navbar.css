@@ -188,7 +188,7 @@
 }
 
 /*== 860px - 999px ==*/
-@media (max-width:999px) and (min-width:860px){
+@media (max-width: 999px) and (min-width: 860px){
     #nav-bar{
         width:100%;
         height:50px;
@@ -222,6 +222,7 @@
 @media (max-width:859px) and (min-width:750px){
     #nav-bar{
         height:50px;
+        
     }
 
     .li-style{
@@ -250,6 +251,7 @@
 
 /*== 600px - 749px ==*/
 @media (max-width:749px) and (min-width:600px){
+    
     #nav-bar{
         height:auto;
 
@@ -262,6 +264,7 @@
     }
 
     #div-logo{
+
         width:120px;
     }
     
